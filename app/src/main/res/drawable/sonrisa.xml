@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sonrisa0" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa1" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa2" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa3" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa4" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa5" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa6" android:duration="75" />
+    <item android:drawable="@drawable/sonrisa7" android:duration="75" />
+</animation-list>

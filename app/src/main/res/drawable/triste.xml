@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/triste0" android:duration="75" />
+    <item android:drawable="@drawable/triste1" android:duration="75" />
+    <item android:drawable="@drawable/triste2" android:duration="75" />
+    <item android:drawable="@drawable/triste3" android:duration="75" />
+    <item android:drawable="@drawable/triste4" android:duration="75" />
+    <item android:drawable="@drawable/triste5" android:duration="75" />
+    <item android:drawable="@drawable/triste6a" android:duration="75" />
+    <item android:drawable="@drawable/triste7" android:duration="75" />
+    <item android:drawable="@drawable/triste8" android:duration="75" />
+    <item android:drawable="@drawable/triste9" android:duration="75" />
+</animation-list>
