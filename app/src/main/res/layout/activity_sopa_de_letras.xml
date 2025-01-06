@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- View para oscurecer el fondo -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"/>
+
+    <GridLayout
+        android:id="@+id/grid_sopa_de_letras"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="15dp"
+        android:alignmentMode="alignMargins"
+        android:background="@drawable/borders"
+        android:columnCount="10"
+        android:padding="8dp"
+        android:rowCount="10"></GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders"
+        android:layout_margin="25dp"
+        android:layout_below="@id/grid_sopa_de_letras"
+        android:id="@+id/txtAyuda">
+
+        <TextView
+            android:id="@+id/textViewClues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_below="@id/txtAyuda"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#03A9F4"
+        android:enabled="false"
+        android:text="Siguiente" />
+
+
+</RelativeLayout>
+
