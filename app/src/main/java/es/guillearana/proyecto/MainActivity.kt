@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val jugarButton: Button = findViewById(R.id.button)
 
         jugarButton.setOnClickListener {
-            val intent = Intent(this, SopaDeLetrasActivity::class.java)
+            val intent = Intent(this, ExplicacionActivitySopa::class.java)
             startActivity(intent)
         }
 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:text="Bakion urtean zehar auzoko jaiak , San Joseak… ospatzen dira baina herriko jaiak San Joan Dolozak dira. Abuztuaren 28tik 31ra izaten dira normalean. Bakio itsaso ondoan dago eta ikur oso garrantzitsua da herriarentzat. Arrantzarako zaletasuna dago eta asko lanpernak hartzen joaten dira. Horregatik, San Joan dolozetako pertsonaia ni naiz,  lanperna  eta “Lanper” izena dut. Jai guztietan zehar ekintza, kalejira eta jende artean egoten naiz herritarrek nirekin argazkiak atera ditzaten. Udaletxea da nire etxea, urtean zehar lo egoten naiz indarrak hartzen eta jaietan egun eta gau zuen artean ibiltzen naiz!"
+        android:textSize="19sp"
+        android:alignmentMode="alignMargins" />
+    <Button
+        android:id="@+id/btnPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reproducir" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvTotalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnNextActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:enabled="false"
+        android:layout_marginTop="32dp" />
+</LinearLayout>
+
